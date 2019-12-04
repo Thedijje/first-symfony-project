@@ -28,4 +28,18 @@ Class BlogController extends AbstractController{
         ]);
     }
 
+
+    /**
+     * 
+     * @Route("/blog/post/{url}", methods={"GET", "HEAD"}); 
+     * 
+     */
+    public function post(string $url)
+    {
+        return $this->render(
+            "blog/post.html.twig"
+        );
+        
+    }
+
 }
