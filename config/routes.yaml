@@ -2,12 +2,3 @@
 #    path: /
 #    controller: App\Controller\DefaultController::index
 
-
-home_page_route:
-  path: /
-  controller: App\Controller\HomeController::index
-
-
-login_url:
-  path: /login
-  controller: App\Controller\HomeController::login
